@@ -326,7 +326,7 @@ static int process_open_cmd(client_t *client, netiso_open_cmd *cmd)
 	filepath = translate_path(filepath, 1, 1, &viso);
 	if (!filepath)
 	{
-		DPRINTF("Path cannot be translated. Connection with this client will be aboreted.\n");
+		DPRINTF("Path cannot be translated. Connection with this client will be aborted.\n");
 		return -1;
 	}
 
