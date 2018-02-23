@@ -6,7 +6,7 @@ description: |
 confinement: devmode
 
 apps:
-  ps3srv:
+  ps3netsrv:
     command: ps3netsrv
 
 parts:
