@@ -1,0 +1,19 @@
+name: ps3netsrv
+version: "1.0"
+summary: ps3netsrv
+description: |
+  ps3netsrv allows you to share files with your PS3 running CFW and Multiman or Webman
+confinement: devmode
+
+apps:
+  ps3srv:
+    command: ps3netsrv
+
+parts:
+  ps3netsrv:
+    plugin: make
+    source-type: git
+    source: https://github.com/8none1/ps3netsrv
+    artifacts: [ps3netsrv]
+
+
