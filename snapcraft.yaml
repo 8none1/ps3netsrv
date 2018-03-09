@@ -2,10 +2,7 @@ name: ps3netsrv
 version: "1.0"
 summary: ps3netsrv
 description: |
-  ps3netsrv allows you to share files with your PS3 running CFW and Multiman or Webman.
-  It can only serve files from your home directory because it is deliberately confined to only be 
-  able to view files in your home directory.  If you need to access a special directory try creating
-  a user whose home directory is set as that directory and run ps3netsrv as that user.
+  ps3netsrv allows you to share files with your PS3 running CFW and Multiman or Webman
 confinement: strict
 grade: stable
 
